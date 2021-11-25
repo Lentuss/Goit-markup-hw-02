@@ -5,19 +5,16 @@
   --main-text-color: #757575;
   /* background color settings */
   --main-background-color: #e5e5e5;
-  --project-cards-background-color: #eeeeee;
   --light-background-color: #f5f4fa;
   --dark-background-color: #2f303a;
 }
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-text-color);
+  background-color: #fff;
 }
 
 /* header styles */
-.header-section {
-  background-color: #fff;
-}
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -72,6 +69,7 @@ body {
 .button-change-color:focus {
   color: #fff;
   background-color: var(--brand-color);
+  cursor: pointer;
 }
 /* why we section styles */
 .why-we-list {
@@ -80,7 +78,6 @@ body {
 .why-we-title {
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 700;
   line-height: 1.17;
 }
 .title-color {
@@ -93,7 +90,6 @@ body {
 /* what we do section styles */
 .what-we-do-title {
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.17;
 }
 .what-we-do-list {
@@ -105,7 +101,6 @@ body {
 }
 .our-team-title {
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.17;
 }
 .our-team-list {
@@ -124,7 +119,37 @@ body {
   font-size: 16px;
   line-height: 1.17;
 }
-
+/* portfolio styles */
+.portfolio-title {
+  display: none;
+}
+.filter-list {
+  list-style-type: none;
+}
+.filter-button {
+  background-color: var(--light-background-color);
+  color: var(--title-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+}
+.project-list {
+  list-style-type: none;
+}
+.project-list a {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+.project-title {
+  color: var(--title-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.88;
+}
 /* footer styles */
 .footer-section {
   background-color: var(--dark-background-color);
