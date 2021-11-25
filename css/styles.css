@@ -5,17 +5,18 @@
   --main-text-color: #757575;
   /* background color settings */
   --main-background-color: #e5e5e5;
+  --project-cards-background-color: #eeeeee;
   --light-background-color: #f5f4fa;
   --dark-background-color: #2f303a;
 }
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: var(--main-background-color);
   color: var(--main-text-color);
 }
 
 /* header styles */
 .header-section {
+  background-color: #fff;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -50,7 +51,81 @@ body {
 .link-color-change:focus {
   color: var(--brand-color);
 }
+/* hero section styles */
+.hero-section {
+  background-color: var(--dark-background-color);
+}
+.hero-title {
+  color: #fff;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+}
+.hero-button {
+  background-color: var(--light-background-color);
+  color: var(--title-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+}
+.button-change-color:hover,
+.button-change-color:focus {
+  color: #fff;
+  background-color: var(--brand-color);
+}
+/* why we section styles */
+.why-we-list {
+  list-style-type: none;
+}
+.why-we-title {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.17;
+}
+.title-color {
+  color: var(--title-color);
+}
+.why-we-content {
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* what we do section styles */
+.what-we-do-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+}
+.what-we-do-list {
+  list-style-type: none;
+}
+/* our team section styles */
+.our-team-section {
+  background-color: var(--light-background-color);
+}
+.our-team-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+}
+.our-team-list {
+  list-style-type: none;
+}
+.our-team-card {
+  background-color: #fff;
+}
+.our-team-unit {
+  color: var(--title-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+.our-team-position {
+  font-size: 16px;
+  line-height: 1.17;
+}
 
+/* footer styles */
 .footer-section {
   background-color: var(--dark-background-color);
 }
@@ -63,7 +138,7 @@ body {
 }
 .footer-address {
   color: #fff;
-  font-style: initial;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
