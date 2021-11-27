@@ -36,6 +36,9 @@ body {
   line-height: 1.14;
   text-decoration: none;
 }
+.nav-list .curent {
+  color: var(--brand-color);
+}
 .nav-link-color {
   color: var(--title-color);
 }
